@@ -1,0 +1,9 @@
+-	Download Python 3.8.3 
+-	Create virtual environment command: python -m venv your_env_name or py -3.8 -m venv your_env_name if you have multiple versions of Python 
+-	Use the python in your virtual environment folder, in Scripts folder
+-	Install all required packages from a .txt file: FOR /F %k in (your_txt_file_name.txt) DO python -m pip install %k
+-	Check to see if your installed packages match with required packages 
+-	If it is not matching, you can reinstall the package through its wheel (.whl file)
+-	Check to see all your installed packages: python -m pip list
+-	Remember to use python under the directory of: path to your virtual environment folder/ Scripts
+-	Link this python in Spyder: go to Tools/ Preferences/ Python interpreter and select use the following python interpreter, then choose python.exe in the above virtual environment directory 
