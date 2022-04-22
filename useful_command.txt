@@ -1,0 +1,10 @@
+linux:
+find -name "*.py" | xargs grep "portfolio_id"
+grep -r "portfolio_id" *
+
+cmd:
+FOR /F %k in (requirements.txt) DO pip install %k 
+python -m pip install -r req.txt
+
+git:
+git diff --name-only origin/master
