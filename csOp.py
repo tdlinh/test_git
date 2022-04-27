@@ -1,6 +1,10 @@
-''' 
-this is library to perform cross-sectional operation such as Rank and Neutralize
-'''
+"""
+Created on Thu Jan  6 15:21:18 2022
+
+@author: linh.trinh
+
+this is library to perform cross sectional operation such as cross sectional rank
+"""
 
 import numpy as np
 import pandas as pd
@@ -288,14 +292,3 @@ def groupWinsorize(alpha_m, universe_m = None, group_m = None, limits = 0.5):
     #result[~np.isfinite(group_m)] = np.nan
         
     return result
-
-
-
-
-
-
-
-
-
-
-
